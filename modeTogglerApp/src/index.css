@@ -7,3 +7,13 @@
   background-color : white;
   color: black
 }
+/* use selector to select all children if required */
+/* .dark *{
+  background-color : black;
+  color: white
+}
+
+.light *{
+  background-color : white;
+  color: black
+} */
