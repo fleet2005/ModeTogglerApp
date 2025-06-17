@@ -33,7 +33,8 @@
 
 
 
-//do the below in the app.jsx to toggle all the components throughout the react application
+//do the same thing as below, but in the app.jsx's top level element to toggle all the components theme throughout the react application as app.jsx contains all components as children under it.
+//Toggling theme for an entire component
 // import { useState } from 'react'
 // import './index.css'
 
@@ -65,7 +66,8 @@
 
 
 // export default ModeToggler
-//do the above in the app.jsx to toggle all the components throughout the react application
+//Toggling theme for an entire component
+//do the same thing as above but in the app.jsx's top level element to toggle all the components theme throughout the react application as app.jsx contains all components as children under it.
 
 
 
@@ -120,3 +122,7 @@ const ModeToggler = () => {
 
 export default ModeToggler
 //Entire body modification recommended way //FOLLOW THIS ONLY
+
+
+//always use an updater function in setter function unless the value doesn't depend on previous state. But yea safe play is to always use an updater function.
+//write in the format like style = {{}} ... Because in JSX, an object of styles is expected. 
