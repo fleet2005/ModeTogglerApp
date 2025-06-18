@@ -9,23 +9,3 @@
   background-color : white;
   color: black
 }
-
-
-/* .dark *{
-  background-color : black;
-  color: white;
- 
-}
-
-.light *{
-  background-color : white;
-  color: black
-} */
-
-/* 
-
-In CSS, only a limited set of properties are inherited by default. These are mostly text-related properties, such as color, font-family, font-size, line-height, letter-spacing, word-spacing, text-align, and visibility. These properties are automatically passed from a parent element to its children unless explicitly overridden. However, even inherited properties can be blocked or reset by browser default styles. For example, although font-family is an inheritable property, applying it on a parent container will not affect a <button> element by default because browsers apply their own built-in styles to elements like buttons, inputs, and headings. This is why selectors are often required when consistent styling is desired across all children.
-
-On the other hand, the majority of CSS properties — such as background-color, margin, padding, border, width, height, display, position, z-index, box-shadow, and overflow — are not inherited by default. To apply these properties to children, they must be defined explicitly or enforced using selectors like .parent * { background-color: white; }. In some cases, you can use the inherit keyword to explicitly force a child to inherit a specific property, for example: background-color: inherit;
-
-*/
